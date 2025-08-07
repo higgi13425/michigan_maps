@@ -12,7 +12,7 @@ library(tidyverse)
 # census_api_key("YOUR_API_KEY_HERE", install = TRUE)
 
 # Set your Mapbox access token
-mb_access_token("YOUR_MAPBOX_ACCESS_TOKEN_HERE", install = TRUE)
+#mb_access_token("YOUR_MAPBOX_ACCESS_TOKEN_HERE", install = TRUE)
 
 # Get population data by county for Michigan
 michigan_population <- get_acs(
